@@ -26,41 +26,35 @@ export default function TabLayout() {
           default: {},
         }),
       }}>
-      <Tabs.Screen
+         <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="explore"
-        options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
-        }}
-      />
-            <Tabs.Screen
-        name="batata"
-        options={{
-          title: 'Batata',
+          title: 'Emulator',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="umbrella" 
           color={color} />,
         }}
       />
             <Tabs.Screen
-        name="formulario"
+        name="emulator"
         options={{
-          title: 'Formulario',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="boy" 
+          title: 'Emulator',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="umbrella" 
           color={color} />,
         }}
       />
-                  <Tabs.Screen
-        name="sobre"
+            <Tabs.Screen
+        name="estrutura"
         options={{
-          title: 'Sobre',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house" 
+          title: 'Estrutura',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="umbrella" 
+          color={color} />,
+        }}
+      />
+                        <Tabs.Screen
+        name="config"
+        options={{
+          title: 'Config',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="umbrella" 
           color={color} />,
         }}
       />
